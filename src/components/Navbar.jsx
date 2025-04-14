@@ -58,6 +58,7 @@ const Navbar = () => {
                 <NavLink onClick={()=>setShowMenu(false)} to='/portfolio'><p className='px-4 py-2 rounded inline-block'>Portfolio</p></NavLink>
                 <NavLink onClick={()=>setShowMenu(false)} to='/blog'><p className='px-4 py-2 rounded inline-block'>Blog</p></NavLink>
                 <NavLink onClick={()=>setShowMenu(false)} to='/contact'><p className='px-4 py-2 rounded inline-block'>Contact</p></NavLink>
+                <button onClick={()=>navigate('#')} className='bg-green-400 text-white px-8 py-3 rounded-full font-light md:block'>Let's Talk</button>
             </ul>
         </div>
 
