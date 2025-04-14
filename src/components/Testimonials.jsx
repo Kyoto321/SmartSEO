@@ -6,19 +6,19 @@ const Testimonials = () => {
 
   return (
     <div className='md:mx-20 flex mt-10'>
-      <div className='flex-1 flex-col gap-6 mt-20'>
+      <div className='flex flex-col mb-5 gap-6 mt-20'>
         <div className='text-left text-2xl pt-10 text-gray-600'>
           <p className='text-sm text-blue-950 font-medium'>TESTIMONIALS</p>
         </div>
         
-        <b className='text-left text-blue-950 font-medium text-7xl'>Feedback from our clients</b>
+        <b className='text-left text-blue-950 font-medium text-3xl lg:text-6xl md:text-6xl'>Feedback from our clients</b>
         <p className="text-left text-2xl my-5 text-gray-600">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
       
         <button className='bg-blue-700 text-white px-8 py-3 rounded-full font-light md:block'>About Us</button>
       
       
       </div>
-          <div className='flex-1 flex-col items-center gap-4 my-6 text-gray-500 md:mx-10'>
+          <div className='flex flex-col items-center gap-4 my-6 text-gray-500 md:mx-10'>
         
             <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 pt-5 gap-y-6 px-3 sm:px-0'>
 

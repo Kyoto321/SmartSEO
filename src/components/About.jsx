@@ -18,7 +18,7 @@ const About = () => {
             <p className='text-sm text-blue-950 font-medium'>ABOUT US</p>
           </div>
           
-          <b className='text-left text-blue-950 font-medium text-6xl'>Our experts are ready to help</b>
+          <b className='text-left text-blue-950 text-3xl font-medium lg:text-6xl md:text-6xl'>Our experts are ready to help</b>
           <p className="text-left text-sm text-gray-600">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
         
             <div className='flex flex-col gap-10 md:flex-row'>

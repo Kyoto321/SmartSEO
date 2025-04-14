@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Partners = () => {
   return (
-    <div className='flex flex-col items-center gap-4 py-16 text-gray-800' id='speciality'>
+    <div className='flex flex-col items-center gap-4 py-16' id='partners'>
       
         <div className='flex sm:justify-center gap-4 pt-5 w-full overflow-scroll'>
             {partners.map((item, index)=> (

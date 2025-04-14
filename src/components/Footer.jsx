@@ -8,9 +8,9 @@ return (
           {/**------------left side--------------*/}
           <div className="mt-20">
               <p className='text-xl text-white font-medium mb-5'>Office</p>
-              <p className='w-full text-lg font-medium text-gray-600 leading-6'> Germany —785 15h Street, Office 478 Berlin, De 81566</p>
-              <p className='w-full text-lg font-medium text-gray-600 leading-6'>info@email.com</p>
-              <p className='w-full text-lg font-medium text-gray-600 leading-6'>+1 840 841 25 69</p>
+              <p className='w-full py-1 text-lg font-medium text-gray-600 leading-6'> Germany —785 15h Street, Office 478 Berlin, De 81566</p>
+              <p className='w-full py-1 text-lg font-medium text-gray-600 leading-6'>info@email.com</p>
+              <p className='w-full py-1 text-lg font-medium text-gray-600 leading-6'>+1 840 841 25 69</p>
           
           </div>
 

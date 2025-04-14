@@ -10,7 +10,7 @@ const Blog = () => {
         <div className='flex sm:justify-center gap-4 pt-5 w-full overflow-scroll'>
             {blog.map((item, index)=> (
                 <Link onClick={()=>scrollTo(0,0)} className='flex flex-col items-centert text-tx cursor-pointer flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500 no-scrollbar' key={index} to={'#'}>
-                    <img className='w-full sm:w-24 rounded-lg mb-2' src={item.image} alt="" />
+                    <img className='w-20 md:full lg:full rounded-lg mb-2' src={item.image} alt="" />
                     <p className='text-blue-950 mb-2'>{item.title}</p>
                     <p className='text-blue-950 font-medium text-2xl'>{item.about}</p>
                     <p className='text-blue-950 font-medium text-2xl'>{item.about2}</p>
