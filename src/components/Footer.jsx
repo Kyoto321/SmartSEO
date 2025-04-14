@@ -4,7 +4,7 @@ const Footer = () => {
 return (
     <div className='bg-gray-950'>
       <div className='md:mx-20'>
-          <div className='flex flex-col sm:grid grid-cols-[1fr_1fr_1fr_2fr] my-20 gap-14 mt-40 text-sm'>
+          <div className='flex-col grid grid-cols-[1fr_1fr] md:grid-cols-[1fr_1fr_1fr_2fr] lg:grid-cols-[1fr_1fr_1fr_2fr]  my-20 gap-14 mt-40 text-sm'>
           {/**------------left side--------------*/}
           <div className="mt-20">
               <p className='text-xl text-white font-medium mb-5'>Office</p>

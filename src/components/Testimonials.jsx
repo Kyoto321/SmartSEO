@@ -5,7 +5,7 @@ import {assets} from '../assets/assets';
 const Testimonials = () => {
 
   return (
-    <div className='md:mx-20 flex mt-10'>
+    <div className='md:mx-20 lg:flex md:flex mt-10'>
       <div className='flex flex-col mb-5 gap-6 mt-20'>
         <div className='text-left text-2xl pt-10 text-gray-600'>
           <p className='text-sm text-blue-950 font-medium'>TESTIMONIALS</p>
